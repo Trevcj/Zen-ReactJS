@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Lato|Sanchez");
+
+.aboutComponent {
+  margin: auto;
+  width: 90%;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.grid {
+  width: 90%;
+  margin: auto;
+}
+
+.smallBiz {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1em;
+  margin-top: 1.6em;
+}
+
+.about-text {
+  font-family: Lato;
+  font-size: 0.86em;
+  line-height: 1.6em;
+}
+
+.planSmHead {
+  font-family: Lato;
+  font-size: 0.86em;
+  line-height: 1.6em;
+  font-weight: bold;
+}
+
+#carouselScroll {
+  display: grid;
+  overflow-x: auto;
+  overflow-y: hidden;
+  grid-template-columns: 100% 100% 100%;
+  grid-column-gap: 1em;
+  margin-top: 2em;
+}
+
+#price {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 100%;
+}
+
+#platform {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 100%;
+}
+
+#people {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  width: 100%;
+}
+
+.carousel {
+  margin: auto;
+  padding: 1em 0 1em 0;
+  margin-top: 0;
+}
+
+.carouselImg {
+  margin: auto;
+  display: block;
+  height: 125px;
+  width: auto;
+}
+
+#carouselHead {
+  margin-bottom: auto;
+  margin-top: 0.7em;
+}
+#tableScroll{
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 2em;
+}
+#darkBlue{
+  background: #3fb9be;
+}
+th {
+  color: white;
+  padding: 2em 3.5em 2em 3.5em;
+  border: 1.5px solid #3fb9be;
+  border-collapse: collapse;
+}
+td {
+  padding: 1.5em;
+  text-align: left;
+  border: 1px solid #d9f1f2;
+}
+#lightBlue {
+  background: #d9f1f2;
+  border-left: 1.5px solid #d9f1f2;
+  vertical-align: middle;
+}
+
+table {
+  font-family: Lato;
+  border-collapse: collapse;
+  border: none;
+}
+#lightFont {
+  font-weight: lighter;
+}

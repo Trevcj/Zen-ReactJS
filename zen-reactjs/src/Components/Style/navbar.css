@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Lato|Sanchez");
+
+.nav {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  border-bottom: solid #cccccc 1px;
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+}
+.zenHeader {
+  grid-column: 2/3;
+  margin: auto;
+}
+.arrowContainer {
+  grid-column: 1/2;
+  margin: auto;
+}
+#leftArrow{
+  font-size: 50px;
+  margin: auto;
+}
+#menu {
+
+}
+.zenText{
+  font-family: Sanchez;
+  font-size: 25px;
+  color: #363636;
+  margin: 0;
+}
+#blue{
+  color: #3fb9be;
+}
+a {
+	text-decoration: none;
+	color: #363636;
+}
+
+#menu {
+	font-size: 35px;
+	margin-top: 8px;
+	margin-left: 3px;
+}
+#menu.white {
+	color: white;
+}
+.slideOut {
+	display: grid;
+	grid-template-rows: 10% 80% 10%;
+	position: fixed;
+	width: 0;
+	background-color: #363636;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	-webkit-transition: width .35s;
+  	-moz-transition: width .35s;
+  	-o-transition: width .35s;
+  	transition: width .35s;
+}
+#menuExit{
+	grid-row: 1/2;
+}
+#links{
+	grid-row: 2/3;
+}
+#slideNames{
+	font-family: Lato;
+	font-size: 1.2em;
+	color: white;
+	margin: 10%;
+	line-height: 2em;
+}
+#signIn{
+	grid-row: 3/4;
+}
+#slideSignIn {
+	font-family: Lato;
+	font-size: 1.2em;
+	color: white;
+	margin: auto auto 10% 10%;
+	bottom: 0;
+
+}
+
+.slideOut.active {
+	width: 75%;
+}

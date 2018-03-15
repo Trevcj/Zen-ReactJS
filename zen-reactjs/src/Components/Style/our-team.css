@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Lato|Sanchez");
+
+.ourTeam {
+  display: grid;
+  margin:auto;
+  width: 90%;
+  margin-top: 5em;
+}
+#team {
+  font-family: Sanchez;
+  font-size: 1.5em;
+  margin: auto;
+  margin-bottom: 1em;
+}
+.teamMember {
+  grid-column: 1/2;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  font-family: Lato;
+  margin: auto;
+  padding: 1em;
+}
+.memberImg-div {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  height: 100%;
+  width: auto;
+}
+#memberImg {
+  width: 100px;
+  height: auto;
+}
+.memberName {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  margin: auto;
+  margin-left: 2em;
+}
+#bold {
+  font-weight: bold;
+}
+.memberBio {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  margin: auto;
+}
+#bio {
+  margin-top: 1em;
+  line-height: 1.6em;
+  font-size: 0.86em;
+}
