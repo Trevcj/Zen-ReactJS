@@ -3,7 +3,7 @@ React component made for ZenBusiness
 
 ## Getting Started
 
-After you have theopen in your console follow these commands
+After you have the repo open in your console follow these commands
 
 ```
 cd zen-reactjs
