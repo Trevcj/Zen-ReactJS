@@ -1,7 +1,15 @@
-# Zen-ReactJS
+# Zen-React
+React component made for ZenBusiness
 
-## Clone repo
+## Getting Started
 
-## npm install
+After you have theopen in your console follow these commands
 
-## npm start
+```
+cd zen-reactjs
+
+npm install
+
+npm start
+```
+
